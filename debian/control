@@ -1,0 +1,18 @@
+Source: libconvert-nls-date-format-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Standards-Version: 3.9.2
+Homepage: http://search.cpan.org/dist/Convert-NLS_DATE_FORMAT/
+Vcs-Git: git://git.debian.org/pkg-perl/packages/libconvert-nls-date-format-perl.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libconvert-nls-date-format-perl.git
+
+Package: libconvert-nls-date-format-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: module for converting Oracle NLS_DATE_FORMAT <-> strftime Format Strings
+ Convert::NLS_DATE_FORMAT converts Oracle's NLS_DATE_FORMAT string into a
+ strptime format string, or the reverse.

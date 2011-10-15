@@ -1,0 +1,22 @@
+libconvert-nls-date-format-perl (0.03-1) unstable; urgency=low
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Update years of upstream and packaging copyright.
+  * Set Standards-Version to 3.9.2 (no changes).
+  * Bump debhelper compatibility level to 8.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 15 Oct 2011 21:11:22 +0200
+
+libconvert-nls-date-format-perl (0.02-1) unstable; urgency=low
+
+  * Initial release (closes: #603474).
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 14 Nov 2010 16:04:25 +0100
