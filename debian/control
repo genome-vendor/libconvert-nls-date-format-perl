@@ -1,7 +1,7 @@
 Source: libconvert-nls-date-format-perl
 Section: perl
 Priority: optional
-Build-Depends: debhelper (>= 8)
+Build-Depends: debhelper (>= 7)
 Build-Depends-Indep: perl
 Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Uploaders: gregor herrmann <gregoa@debian.org>
